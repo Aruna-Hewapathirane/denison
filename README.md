@@ -10,15 +10,15 @@ Thank you for your understanding.
 
 Project: Denison & Scattered Sites Shift Log Management System
 
-Author: Aruna Hewapathirane, North York, Toronto
-Created: 2025-02-12
-Last Modified: 2025-02-12
+Author: Aruna Hewapathirane, North York, Toronto  
+Created: 2025-02-12  
+Last Modified: 2025-02-12  
 
 Version: 1.0.0
 
-Location: https://github.com/Aruna-Hewapathirane/denison
-Stack/Technologies: HTML, CSS, JavaScript, Bootstrap
-License: Commercial License to FIFE House 
+Location: https://github.com/Aruna-Hewapathirane/denison  
+Stack/Technologies: HTML, CSS, JavaScript, Bootstrap  
+License: Commercial License to FIFE House  
 
 Description: This file contains the front-end structure and layout 
 
