@@ -11,6 +11,7 @@
      License: Commercial License to FIFE House 
      Description: This file contains the front-end structure and layout 
  ============================================================================== -->
+
 <html lang="en">
   <head>
     <meta charset="UTF-8">
@@ -131,127 +132,118 @@
 </div>
 
   <!-- Card for Shift Duties -->
-    <div class="card form-section">
-      <div class="card-header bg-primary text-white">
-        <h5 class="card-title mb-0">SHIFT DUTIES&nbsp;<i>(Items in bold are mandatory shift duties)</i></h5>
-      </div>
-      <div class="card-body">
-        <form>          
-          
-          <div class="row">
-            <!-- First Column -->
-            <div class="col-md-6">
-              <div class="form-check mb-3">
-                <input class="form-check-input" type="checkbox" id="completeShiftChange" checked>
-                <label class="form-check-label checkbox-label" for="completeShiftChange"><strong>Complete Shift Change</strong></label>
-              </div>
-              <div class="form-check mb-3">
-                <input class="form-check-input" type="checkbox" id="signedOffResidentMedSheets">
-                <label class="form-check-label" for="signedOffResidentMedSheets">Signed off on Resident Med Sheets</label>
-              </div>
-              <div class="form-check mb-3">
-                <input class="form-check-input" type="checkbox" id="checkVoicemailCell" checked>
-                <label class="form-check-label" for="checkVoicemailCell"><strong>Check Voicemail on Cell Phone</strong></label>
-              </div>
-              <div class="form-check mb-3">
-                <input class="form-check-input" type="checkbox" id="checkVoicemailOffice">
-                <label class="form-check-label" for="checkVoicemailOffice">Check Voicemail on Office Line</label>
-              </div>
-              <div class="form-check mb-3">
-                <input class="form-check-input" type="checkbox" id="emailReviewed" checked>
-                <label class="form-check-label" for="emailReviewed"><strong>Email Reviewed</strong></label>
-              </div>
-              <div class="form-check mb-3">
-                <input class="form-check-input" type="checkbox" id="ocaseReviewed" checked>
-                <label class="form-check-label" for="ocaseReviewed"><strong>OCASE Reviewed</strong></label>
-              </div>
-              <div class="form-check mb-3">
-                <input class="form-check-input" type="checkbox" id="ocaseEntered" checked>
-                <label class="form-check-label" for="ocaseEntered"><strong>OCASE Entered</strong></label>
-              </div>
-              <div class="form-check mb-3">
-                <input class="form-check-input" type="checkbox" id="caseManagementReviewed">
-                <label class="form-check-label" for="caseManagementReviewed">Case Management Minutes Reviewed</label>
-              </div>
-              <div class="form-check mb-3">
-                <input class="form-check-input" type="checkbox" id="memoPostedToDoors">
-                <label class="form-check-label" for="memoPostedToDoors">Memo posted to client doors</label>
-              </div>
-              <div class="form-check mb-3">
-                <input class="form-check-input" type="checkbox" id="communalMealPrepared">
-                <label class="form-check-label" for="communalMealPrepared">Communal Meal prepared</label>
-              </div>
-              <div class="form-check mb-3">
-                <input class="form-check-input" type="checkbox" id="occurrenceReportWritten">
-                <label class="form-check-label" for="occurrenceReportWritten">Occurrence Report Written</label>
-              </div>
-              <div class="form-check mb-3">
-                <input class="form-check-input" type="checkbox" id="itemsFiled">
-                <label class="form-check-label" for="itemsFiled">Item(s) Filed / Added from DWCI. Describe:</label>
-                <textarea class="form-control" id="itemsFiledDescription" rows="3"></textarea>
-              </div>
-            </div>
+<div class="card form-section">
+  <div class="card-header bg-primary text-white">
+    <h5 class="card-title mb-0">&#x53;&#x48;&#x49;&#x46;&#x54; &#x44;&#x55;&#x54;&#x49;&#x45;&#x53;&nbsp;<i>(&#x49;&#x74;&#x65;&#x6d;&#x73; &#x69;&#x6e; &#x62;&#x6f;&#x6c;&#x64; &#x61;&#x72;&#x65; &#x6d;&#x61;&#x6e;&#x64;&#x61;&#x74;&#x79; &#x73;&#x68;&#x69;&#x66;&#x74;&#x20;&#x64;&#x75;&#x74;&#x69;&#x65;&#x73;)</i></h5>
+  </div>
+  <div class="card-body">
+    <form>          
 
-            <!-- Second Column -->
-            <div class="col-md-6">
-              <div class="form-check mb-3">
-                <input class="form-check-input" type="checkbox" id="checkOutlookCalendar">
-                <label class="form-check-label" for="checkOutlookCalendar">Check Outlook Calendar</label>
-              </div>
-              <div class="form-check mb-3">
-                <input class="form-check-input" type="checkbox" id="medsReceived">
-                <label class="form-check-label" for="medsReceived">Meds Received from the Pharmacy</label>
-              </div>
-              <div class="form-check mb-3">
-                <input class="form-check-input" type="checkbox" id="updatedMedSheets">
-                <label class="form-check-label" for="updatedMedSheets">Updated Med Sheets</label>
-              </div>
-              <div class="form-check mb-3">
-                <input class="form-check-input" type="checkbox" id="printedNewMedSignOff">
-                <label class="form-check-label" for="printedNewMedSignOff">Printed New Med Sign Off Sheet</label>
-              </div>
-              <div class="form-check mb-3">
-                <input class="form-check-input" type="checkbox" id="staffAgendaPrinted">
-                <label class="form-check-label" for="staffAgendaPrinted">Staff Meeting Agenda Printed & Placed in Binder (Monthly)</label>
-              </div>
-              <div class="form-check mb-3">
-                <input class="form-check-input" type="checkbox" id="cleaningTasksCompleted" checked>
-                <label class="form-check-label" for="cleaningTasksCompleted"><strong>Cleaning tasks completed and signed off</strong></label>
-              </div>
-              <div class="form-check mb-3">
-                <input class="form-check-input" type="checkbox" id="exteriorSecurityCheck" checked>
-                <label class="form-check-label" for="exteriorSecurityCheck"><strong>Exterior Security Check of Property Completed</strong></label>
-              </div>
-              <div class="form-check mb-3">
-                <input class="form-check-input" type="checkbox" id="interiorSecurityCheck" checked>
-                <label class="form-check-label" for="interiorSecurityCheck"><strong>Interior Security Check of Property Completed</strong></label>
-              </div>
-              <div class="form-check mb-3">
-                <input class="form-check-input" type="checkbox" id="clientWellnessChecks" checked>
-                <label class="form-check-label" for="clientWellnessChecks"><strong>Client Wellness Checks Completed</strong></label>
-              </div>
-              <div class="form-check mb-3">
-                <input class="form-check-input" type="checkbox" id="staffMeetingMinutesTyped">
-                <label class="form-check-label" for="staffMeetingMinutesTyped">Staff Meeting Minutes Typed / Saved (Monthly)</label>
-              </div>
-              <div class="form-check mb-3">
-                <input class="form-check-input" type="checkbox" id="staffMeetingMinutesReviewed">
-                <label class="form-check-label" for="staffMeetingMinutesReviewed">Staff Meeting Minutes Reviewed (Weekly)</label>
-              </div>
-              <div class="form-check mb-3">
-                <input class="form-check-input" type="checkbox" id="occurrenceReportsReviewed">
-                <label class="form-check-label" for="occurrenceReportsReviewed">Occurrence Reports Reviewed</label>
-              </div>
-              <div class="form-check mb-3">
-                <input class="form-check-input" type="checkbox" id="residentPlansReviewed">
-                <label class="form-check-label" for="residentPlansReviewed">All resident Plans of Service (POS) reviewed</label>
-              </div>              
-            </div>
+      <div class="row">
+        <!-- First Column -->
+        <div class="col-md-6">
+          <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" id="completeShiftChange" checked>
+            <label class="form-check-label checkbox-label" for="completeShiftChange"><strong>&#x43;&#x6f;&#x6d;&#x70;&#x6c;&#x65; &#x53;&#x48;&#x49;&#x46;&#x54; &#x43;&#x48;&#x41;&#x4e;&#x47;&#x45;</strong></label>
           </div>
-        </form>
-      </div>
-    </div>
-    
+          <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" id="signedOffResidentMedSheets">
+            <label class="form-check-label" for="signedOffResidentMedSheets">&#x53;&#x69;&#x67;&#x6e;&#x65;&#x64; &#x6f;&#x66;&#x66; &#x6f;&#x6e; &#x52;&#x65;&#x73;&#x69;&#x64;&#x65;&#x6e;&#x74; &#x4d;&#x65;&#x64; &#x53;&#x68;&#x65;&#x65;&#x74;&#x73;</label>
+          </div>
+          <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" id="checkVoicemailCell" checked>
+            <label class="form-check-label" for="checkVoicemailCell"><strong>&#x43;&#x68;&#x65;&#x63;&#x6b; &#x56;&#x6f;&#x69;&#x63;&#x65;&#x6d;&#x61;&#x69;&#x6c; &#x6f;&#x6e; &#x43;&#x65;&#x6c;&#x6c;&#x20;&#x50;&#x68;&#x6f;&#x6e;&#x65;</strong></label>
+          </div>
+          <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" id="checkVoicemailOffice">
+            <label class="form-check-label" for="checkVoicemailOffice">&#x43;&#x68;&#x65;&#x63;&#x6b; &#x56;&#x6f;&#x69;&#x63;&#x65;&#x6d;&#x61;&#x69;&#x6c; &#x6f;&#x6e; &#x4f;&#x66;&#x66;&#x69;&#x63;&#x65; &#x4c;&#x69;&#x6e;&#x65;</label>
+          </div>
+          <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" id="emailReviewed" checked>
+            <label class="form-check-label" for="emailReviewed"><strong>&#x45;&#x6d;&#x61;&#x69;&#x6c; &#x52;&#x65;&#x76;&#x69;&#x65;&#x77;&#x65;&#x64;</strong></label>
+          </div>
+          <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" id="ocaseReviewed" checked>
+            <label class="form-check-label" for="ocaseReviewed"><strong>&#x4f;&#x43;&#x41;&#x53;&#x45; &#x52;&#x65;&#x76;&#x69;&#x65;&#x77;&#x65;&#x64;</strong></label>
+          </div>
+          <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" id="ocaseEntered" checked>
+            <label class="form-check-label" for="ocaseEntered"><strong>&#x4f;&#x43;&#x41;&#x53;&#x45; &#x45;&#x6e;&#x74;&#x65;&#x72;&#x65;&#x64;</strong></label>
+          </div>
+          <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" id="caseManagementReviewed">
+            <label class="form-check-label" for="caseManagementReviewed">&#x43;&#x61;&#x73;&#x65; &#x4d;&#x61;&#x6e;&#x61;&#x67;&#x65;&#x6d;&#x65;&#x6e;&#x74; &#x4d;&#x69;&#x6e;&#x75;&#x74;&#x65;&#x73; &#x52;&#x65;&#x76;&#x69;&#x65;&#x77;&#x65;&#x64;</label>
+          </div>
+          <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" id="memoPostedToDoors">
+            <label class="form-check-label" for="memoPostedToDoors">&#x4d;&#x65;&#x6d;&#x6f; &#x70;&#x6f;&#x73;&#x74;&#x65;&#x64; &#x74;&#x6f; &#x63;&#x6c;&#x69;&#x65;&#x6e;&#x74; &#x64;&#x6f;&#x6f;&#x72;&#x73;</label>
+          </div>
+          <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" id="communalMealPrepared">
+            <label class="form-check-label" for="communalMealPrepared">&#x43;&#x6f;&#x6d;&#x6d;&#x75;&#x6e;&#x61;&#x6c; &#x4d;&#x65;&#x61;&#x6c; &#x70;&#x72;&#x65;&#x70;&#x61;&#x72;&#x65;&#x64;</label>
+          </div>
+          <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" id="occurrenceReportWritten">
+            <label class="form-check-label" for="occurrenceReportWritten">&#x4f;&#x63;&#x63;&#x75;&#x72;&#x72;&#x65;&#x6e;&#x63;&#x65; &#x52;&#x65;&#x70;&#x6f;&#x72;&#x74; &#x57;&#x72;&#x69;&#x74;&#x74;&#x65;&#x6e;</label>
+          </div>
+          <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" id="itemsFiled">
+            <label class="form-check-label" for="itemsFiled">&#x49;&#x74;&#x65;&#x6d;&#x28;s&#x29; &#x46;&#x69;&#x6c;&#x65;&#x64; &#x2f; &#x41;&#x64;&#x64;&#x65;&#x64; &#x66;&#x72;&#x6f;&#x6d; &#x44;&#x57;&#x43;&#x49;&#x2e; &#x44;&#x65;&#x73;&#x63;&#x72;&#x69;&#x62;&#x65;&#x3a;</label>
+            <textarea class="form-control" id="itemsFiledDescription" rows="3"></textarea>
+          </div>
+        </div>
+
+        <!-- Second Column -->
+        <div class="col-md-6">
+          <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" id="checkOutlookCalendar">
+            <label class="form-check-label" for="checkOutlookCalendar">&#x43;&#x68;&#x65;&#x63;&#x6b; &#x4f;&#x75;&#x74;&#x6c;&#x6f;&#x6f;&#x6b; &#x43;&#x61;&#x6c;&#x65;&#x6e;&#x64;&#x61;&#x72;</label>
+          </div>
+          <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" id="medsReceived">
+            <label class="form-check-label" for="medsReceived">&#x4d;&#x65;&#x64;&#x73; &#x52;&#x65;&#x63;&#x65;&#x69;&#x76;&#x65;&#x64; &#x66;&#x72;&#x6f;&#x6d; &#x74;&#x68;&#x65; &#x50;&#x68;&#x61;&#x72;&#x6d;&#x61;&#x63;&#x79;</label>
+          </div>
+          <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" id="updatedMedSheets">
+            <label class="form-check-label" for="updatedMedSheets">&#x55;&#x70;&#x64;&#x61;&#x74;&#x65;&#x64; &#x4d;&#x65;&#x64; &#x53;&#x68;&#x65;&#x65;&#x74;&#x73;</label>
+          </div>
+          <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" id="printedNewMedSignOff">
+            <label class="form-check-label" for="printedNewMedSignOff">&#x50;&#x72;&#x69;&#x6e;&#x74;&#x65;&#x64; &#x4e;&#x65;&#x77; &#x4d;&#x65;&#x64; &#x53;&#x69;&#x67;&#x6e;&#x20;&#x4f;&#x66;&#x66; &#x53;&#x68;&#x65;&#x65;&#x74;</label>
+          </div>
+          <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" id="staffAgendaPrinted">
+            <label class="form-check-label" for="staffAgendaPrinted">&#x53;&#x74;&#x61;&#x66;&#x66; &#x4d;&#x65;&#x65;&#x74;&#x69;&#x6e;&#x67; &#x41;&#x67;&#x65;&#x6e;&#x64;&#x61; &#x50;&#x72;&#x69;&#x6e;&#x74;&#x65;&#x64; &#x26; &#x50;&#x6c;&#x61;&#x63;&#x65;&#x64; &#x69;&#x6e; &#x42;&#x69;&#x6e;&#x64;&#x65;&#x72; &#x28;&#x4d;&#x6f;&#x6e;&#x74;&#x68;&#x6c;&#x79;&#x29;</label>
+          </div>
+          <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" id="cleaningTasksCompleted" checked>
+            <label class="form-check-label" for="cleaningTasksCompleted"><strong>&#x43;&#x6c;&#x65;&#x61;&#x6e;&#x69;&#x6e;&#x67; &#x74;&#x61;&#x73;&#x6b;&#x73; &#x63;&#x6f;&#x6d;&#x70;&#x6c;&#x65;&#x74;&#x65;&#x64; &#x61;&#x6e;&#x64; &#x73;&#x69;&#x67;&#x6e;&#x65;&#x64; &#x6f;&#x66;&#x66;</strong></label>
+          </div>
+          <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" id="exteriorSecurityCheck" checked>
+            <label class="form-check-label" for="exteriorSecurityCheck"><strong>&#x45;&#x78;&#x74;&#x65;&#x72;&#x69;&#x6f;&#x72; &#x53;&#x65;&#x63;&#x75;&#x72;&#x69;&#x74;&#x79; &#x43;&#x68;&#x65;&#x63;&#x6b; &#x6f;&#x66; &#x50;&#x72;&#x6f;&#x70;&#x65;&#x72;&#x74;&#x79; &#x43;&#x6f;&#x6d;&#x70;&#x6c;&#x65;&#x74;&#x65;&#x64;</strong></label>
+          </div>
+          <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" id="interiorSecurityCheck" checked>
+            <label class="form-check-label" for="interiorSecurityCheck"><strong>&#x49;&#x6e;&#x74;&#x65;&#x72;&#x69;&#x6f;&#x72; &#x53;&#x65;&#x63;&#x75;&#x72;&#x69;&#x74;&#x79; &#x43;&#x68;&#x65;&#x63;&#x6b; &#x6f;&#x66; &#x50;&#x72;&#x6f;&#x70;&#x65;&#x72;&#x74;&#x79; &#x43;&#x6f;&#x6d;&#x70;&#x6c;&#x65;&#x74;&#x65;&#x64;</strong></label>
+          </div>
+          <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" id="clientWellnessChecks" checked>
+            <label class="form-check-label" for="clientWellnessChecks"><strong>&#x43;&#x6c;&#x69;&#x65;&#x6e;&#x74; &#x57;&#x65;&#x6c;&#x6c;&#x6e;&#x65;&#x73;&#x73; &#x43;&#x68;&#x65;&#x63;&#x6b;&#x73; &#x43;&#x6f;&#x6d;&#x70;&#x6c;&#x65;&#x74;&#x65;&#x64;</strong></label>
+          </div>
+          <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" id="staffMeetingMinutesTyped">
+            <label class="form-check-label" for="staffMeetingMinutesTyped">&#x53;&#x74;&#x61;&#x66;&#x66; &#x4d;&#x65;&#x65;&#x74;&#x69;&#x6e;&#x67; &#x4d;&#x69;&#x6e;&#x75;&#x74;&#x65;&#x73; &#x54;&#x79;&#x70;&#x65;&#x64; &#x2f; &#x53;&#x61;&#x76;&#x65;&#x64; &#x28;&#x4d;&#x6f;&#x6e;&#x74;&#x68;&#x6c;&#x79;&#x29;</label>
+          </div>
+          <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" id="staffMeetingMinutesReviewed">
+            <label class="form-check-label" for="staffMeetingMinutesReviewed">&#x53;&#x74;&#x61;&#x66;&#x66; &#x4d;&#x65;&#x65;&#x74;&#x69;&#x6e;&#x67; &#x4d;&#x69;&#x6e;&#x75;&#x74;&#x65;&#x73; &#x52;&#x65;&#x76;&#x69;&#x65;&#x77;&#x65;&#x64; &#x28;&#x57;&#x65;&#x65;&#x6b;&#x6c;&#x79;&#x29;</label>
+          </div>
+          <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" id="occurrenceReportsReviewed">
+            <label class="form-check-label" for="occurrenceReportsReviewed">&#x4f;&#x63;&#x63;&#x75;&#x72;&#x72;&#x65;&#x6e;&#x63;&#x65; &#x52;&#x65;&#x70;&#x6f;&#x72;&#x74;&#x73; &#x52;&#x65;&#x76;&#x69;&#x65;&#x77;&#x65;&#x64;</label>
+          </div
+  
 
 
 
@@ -261,5 +253,6 @@
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <a href="https://info.flagcounter.com/3HDf"><img src="https://s01.flagcounter.com/count/3HDf/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_18/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+
   </body>
 </html>
